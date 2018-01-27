@@ -1,0 +1,126 @@
+body {
+  height: 100vh;
+  width: 100vw;
+
+  position: relative;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.full-background {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+
+  background: url("http://res.cloudinary.com/dzixj0ktk/image/upload/v1510476943/vlad-busuioc-116873_b5igbu.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.grayed-out {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+
+  background-color: black;
+  opacity: .6;
+}
+
+.content-container {
+  height: 100%;
+  width: 100%;
+
+  box-sizing: border-box;
+
+  position: absolute;
+
+  padding: 3.2% 10%;
+}
+
+header {
+  height: 12.5%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+
+}
+
+nav {
+  width: 20%;
+}
+
+nav a {
+  color: white;
+  font-size: 14px;
+
+  margin: auto 7%;
+
+  letter-spacing: .5px;
+}
+
+nav a:hover {
+  opacity: .6;
+  transition: 1s;
+
+  color: white;
+}
+
+.button {
+  background-color: #ffc200;
+
+  padding: 10px 16px;
+
+  border-radius: 2px;
+}
+
+.main-container {
+  height: 60%;
+  width: 100%;
+}
+
+.auto-margin {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 50px;
+  font-weight: 500;
+
+  line-height: 1.4;
+}
+
+.main-header {
+  width: 97%;
+
+  padding-right: 12%;
+}
+
+.main-link {
+  width: 97%;
+
+  margin-top: 2%;
+}
+
+.secondary-container {
+  height: 27.5%;
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+  width: 33.3333%
+}
