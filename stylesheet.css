@@ -54,7 +54,8 @@ header {
 }
 
 .logo {
-  background-image: url("http://res.cloudinary.com/dzixj0ktk/image/upload/v1517338032/logo_transparent_background_yt0gnc.png");
+  height: 40px;
+  width: 180px;
 }
 
 nav {
