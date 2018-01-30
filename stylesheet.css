@@ -35,6 +35,8 @@ body {
   height: 100%;
   width: 100%;
 
+  overflow-y: scroll;
+
   box-sizing: border-box;
 
   position: absolute;
@@ -97,10 +99,11 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 500;
 
   line-height: 1.4;
+  letter-spacing: 1px;
 }
 
 .main-header {
@@ -122,5 +125,47 @@ nav a:hover {
 
 .card {
   height: 100%;
-  width: 33.3333%
+  width: 33%;
+
+  padding: 2.5%;
+
+  display: inline-block;
+
+  transition: all ease-in-out 250ms;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.flex-center {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.card-header {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+  line-height: 1.4;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.learn-more {
+  font-size: 16px;
+  color: #ffc200;
 }
